@@ -1,5 +1,5 @@
 topic1:
-  partitions: 10
+  partitions: 1
   replication: 1
   config:
     cleanup.policy: compact
