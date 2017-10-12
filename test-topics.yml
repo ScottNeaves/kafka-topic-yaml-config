@@ -1,6 +1,6 @@
 topic1:
   partitions: 1
-  replication: 1
+  replication: 2
   config:
     cleanup.policy: compact
     delete.retention.ms: 86400000
