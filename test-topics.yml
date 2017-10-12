@@ -1,6 +1,6 @@
 topic1:
   partitions: 1
-  replication: 2
+  replication: 1
   config:
     cleanup.policy: compact
     delete.retention.ms: 86400000
@@ -8,9 +8,9 @@ topic1:
     retention.ms: 0
     min.insync.replicas: 3
 
-topic2:
-  partitions: 5
-  replication: 2
+topic3:
+  partitions: 4
+  replication: 1
   config:
     cleanup.policy: delete
     delete.retention.ms: 0
