@@ -6,3 +6,12 @@ topic3:
     delete.retention.ms: 0
     retention.ms: 604800000
     min.insync.replicas: 2
+
+bananas:
+  partitions: 4
+  replication: 1
+  config:
+    cleanup.policy: delete
+    delete.retention.ms: 0
+    retention.ms: 604800000
+    min.insync.replicas: 2
